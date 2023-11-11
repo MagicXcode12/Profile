@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - MagicXab</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <nav>
+        <div class="start">
+            <a href="index.html">MagicXab</a>
+        </div>
+        <div class="end">
+            <a href="karya.html">Karya</a>
+            <a href="kontak.html">Kontak</a>
+            <a href="tentang.html">Tentang</a>
+        </div>
+    </nav>
+
+    <br><br>
+
+    <header class="header">
+        <figure class="text-center">
+            <img
+                src="foto.jpg"
+                alt="profil saya"
+            >
+            <figcaption>MagicXab</figcaption>
+        </figure>
+    </header>
+
+    <br><br><br>
+
+    <main>
+        <h1>Kontak</h1>
+        <hr>
+        <article class="content">
+            <p><strong>Nama:</strong> MagicXab</p>
+            <p><strong>Kelas:</strong> Teknik Informatika 3c</p>
+            <p><strong>Email:</strong> <a href="mailto:enakakunabru5@gmail.com">enakakunbaru5@gmail.com</a></p>
+            <hr>
+            <h3>Kirim sesuatu ke saya</h3>
+            <br>
+            <!-- form -> untuk mendefisikan form -->
+            <form action="mailto:enakakunbaru5@gmail.com?" method="GET">
+                <p>
+                    <!-- label -> untuk membuat judul pada form -->
+                    <label for="subjek">Subjek</label><br>
+                    <!-- input -> untuk memerikan bidang input -->
+                    <input type="subjek" name="subject" id="subjek" required>
+                </p>
+                <p>
+                    <label for="pesan">Pesan</label><br>
+                    <!-- textarea -> untuk memerikan bidang input lebih besar -->
+                    <textarea name="body" id="pesan" cols="30" rows="10" required></textarea>
+                </p>
+                <!-- button -> membuat tombol button -->
+                <button type="submit">kirim sekarang</button>
+            </form>
+        </article>
+    </main>
+
+    <br><br>
+
+    <footer class="text-center">
+        <p>&copy;2023 MagicXab, Hak cipta dilindungi.</p>
+    </footer>
+</body>
+</html>
